@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 		public Connection getConnection() {
 			
-			String connectionUrl = "jdbc:sqlserver://DESKTOP-D76RND4\\SQLEXPRES:1433;databaseName=BARBEARIA;user=sa;password=******";
+			String connectionUrl = "jdbc:sqlserver://Endereço do banco no computador:1433;databaseName=BARBEARIA;user=sa;password=******";
 			
 			try {
 				 return DriverManager.getConnection(connectionUrl);
